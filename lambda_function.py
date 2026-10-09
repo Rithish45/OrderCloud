@@ -6,7 +6,7 @@ logger.setLevel(logging.INFO)
 
 
 def lambda_handler(event, context):
-    logger.info("OrderCloud order processor started")
+    logger.info("OrderCloud CI/CD deployment verified")
 
     order_id = event.get("order_id", "ORD-1001")
 
